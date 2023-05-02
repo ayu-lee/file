@@ -80,7 +80,8 @@ span.year {
 .skill_name2,
 .skill_name3,
 .skill_name4,
-.skill_name5 {
+.skill_name5,
+.skill_name6 {
   /*   border:solid 3px blue; */
   margin-bottom: 10px;
   /* font-size: 18px; */
@@ -90,7 +91,8 @@ span.year {
 .skillborder2,
 .skillborder3,
 .skillborder4,
-.skillborder5 {
+.skillborder5,
+.skillborder6 {
   background-color: #9f9f9f;
   border-radius: 30px;
   width: 180px;
@@ -102,7 +104,8 @@ span.year {
 .inside_ps,
 .inside_sup,
 .inside_ae,
-.inside_html {
+.inside_html,
+.inside_id {
   border-radius: 20px;
   background-color: white;
   position: relative;
@@ -128,11 +131,18 @@ span.year {
   width: 40px;
   height: 10px;
 }
+
+.inside_id {
+  width: 115px;
+  height: 10px;
+}
+
 .inside_ai:hover,
 .inside_ps:hover,
 .inside_sup:hover,
 .inside_ae:hover,
-.inside_html:hover {
+.inside_html:hover,
+.inside_id:hover {
   background-color: #ff6360;
   box-shadow: 0px 0px 18px rgba(230, 223, 223, 10);
 }
